@@ -1,0 +1,69 @@
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.header{
+	line-height:30px;
+	background-position: top;
+	background-attachment: fixed;
+}
+body{
+
+	background-image: url("../image/005.jpg");
+background-size: 100%;
+}
+a{
+	font-size: 1em;
+}
+.submeum a{
+	display: block;
+} 
+div input{
+	width: 300px;
+height: 30px;
+box-sizing: border-box;
+font-size: 1em;
+}
+.header .topnav>li:hover
+{
+color: white;
+background-color: #336699;
+}
+.header .topnav>li
+{
+	background-color: #ffffff;
+	position:relative;
+	float: left;
+	width: 20%;
+	text-align: center;
+	font-size:2em;
+	color: blue;
+}
+.header .topnav>li .submeum {
+	text-align: center;
+	box-shadow: 0px 200px 100px lightblue;
+	border-top: 0px;
+	background-color: #e3e4e5;
+	box-sizing: border-box;
+	/*不生成盒子*/
+	display: none;
+}
+
+.header .topnav>li:hover .submeum{
+	display: block;
+	/*生成盒子*/
+}
+ #box{
+ 	position: relative;
+ 	width:300px;
+ 	 margin:50px auto;
+ 	 }
+.foot{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	background-color: #ffffff;
+	height: 20px;
+	text-align: center;
+}

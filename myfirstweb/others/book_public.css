@@ -1,0 +1,42 @@
+body{
+	background-image: url('../image/bgimg.jpg');
+	background-size: 100%;
+}
+div ul li{
+	font-size: 2em;
+}
+div ul li:hover{
+color: red;
+cursor: pointer;
+}
+.p1,.p2,.p3,.p4{
+	display: none;
+}
+.empty{
+	font-size: 2em;
+color: white;
+}
+.hidden{
+	height: 650px;
+	overflow: hidden;
+}
+.lfloat{
+	float:left;
+	width: 200px;
+	height: 100%;
+}
+.rfloat{
+width: auto;
+height: auto;
+overflow: hidden;
+}
+.left_box{
+	background-image: url('../image/left_box_1.jpg');
+	background-size: 100%;
+}
+.right_box{
+	background:rgba(0,0,0,0.5);
+/*	background-image: url('image/right_box_1.jpg');
+*/	background-size: 100%;
+}
+

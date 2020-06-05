@@ -1,0 +1,35 @@
+/*清除浮动*/
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#box{
+	text-align: center;
+	top: 25%;
+ 	position: relative;
+ 	width:400px;
+ 	 margin:0 auto;
+ 	 }
+/*logo的设置*/
+#box .fox{
+margin: 0 auto;
+width: 50%;
+margin-bottom: 10px;
+}
+/*包含搜索框和图标的盒子*/
+
+ /*搜索框样式*/
+#box #search_text{
+	width: 400px;
+height: 40px;
+box-sizing: border-box;
+font-size: 1em;
+}
+/*搜索的图标设置*/
+#box #search{
+ 	height: 30px;
+	position: absolute;
+    bottom: 5px;
+    right: 5px;
+     }
