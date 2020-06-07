@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<title>走马灯</title>
+</head>
+<body>
+<div id="app">{{msg}}</div>
+
+<script>
+var vm = new Vue({
+	el:'#app',
+	data:{
+		msg:"Hello!Welcome!"
+	},
+// 	methods:{
+// 		run(){
+// setInterval(()=>{
+// 	var start = this.msg.substring(0,1);
+// 	var end = this.msg.substring(1),
+// 	this.msg = end + start;
+// },400)
+// 		}
+// 	}
+})
+</script>
+</body>
+</html>
